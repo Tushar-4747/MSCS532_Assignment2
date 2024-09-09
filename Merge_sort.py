@@ -30,3 +30,10 @@ def merge(left, right):
     result.extend(left[i:])
     result.extend(right[j:])
     return result
+
+
+
+# Test merge_sort 
+example_list = [38, 27, 43, 3, 9, 82, 10]
+sorted_list = merge_sort(example_list)
+print("Sorted list:", sorted_list)
